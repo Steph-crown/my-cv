@@ -176,3 +176,9 @@ main h6 {
 .sub-main-group p{
     margin: 0.5rem 0 0.5rem 1.2rem;
 }
+
+@media (max-width: 800px) {
+    .main-group {
+        padding-right: 2rem;
+    }
+}

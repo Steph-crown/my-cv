@@ -47,7 +47,7 @@
 
 header {
     width: 100%;
-    padding: 3.75rem 1.25rem 1.875rem 2.8rem;
+    padding: 3.75rem 1.25rem 2.4rem 2.8rem;
     background-color: var(--orange);
     color: white;
 }
@@ -57,12 +57,12 @@ h4 {
     font-weight: 500;
     font-size: 0.76rem;
     letter-spacing: 2px;
-    line-height: 1.09px;
+    /* line-height: 1.09px; */
 }
 
 h1 {
     font-weight: 600;
-    margin-bottom: 0.64rem;
+    margin-bottom: 1rem;
     font-size: 2rem;
     letter-spacing: 1.1px;
 }
@@ -73,7 +73,7 @@ main {
 
 aside,
 section.main {
-    padding: 2.8rem 1rem 5rem 1.4rem;
+    padding: 3.4rem 0 2.5rem 1.8rem;
 }
 
 aside {
@@ -86,9 +86,50 @@ section.main {
     background-color: var(--white);
 }
 
+.group {
+    margin-bottom: 2.03rem;
+}
+
 h5 {
     text-transform: uppercase;
     color: var(--orange);
+    font-size: 0.63rem;
+    letter-spacing: 2px;
+    font-weight: 900;
+    line-height: 140%;
+    margin-bottom: 0.75rem;
+}
+
+p,
+h6,
+a,
+b {
+    font-size: 0.58rem;
+    letter-spacing: 0.6px;
+    line-height: 160%;
+    font-weight: 500;
+}
+
+aside h6 {
+    line-height: 140%;
+    margin-bottom: -6px;
+}
+
+h6,
+aside a,
+b {
+    font-weight: 600;
+}
+
+a,
+b {
+    text-decoration: none;
+    color: #9198A2;
+    line-height: 140%;
+}
+
+aside p {
+    color: var(--white);
 }
 
 h6 {
@@ -98,4 +139,40 @@ h6 {
 
 b {
     display: block;
+}
+/* .sub-group {
+margin-bottom: 1rem;
+} */
+
+.main h5,
+.main h6 {
+    color: var(--black);
+}
+
+.main p {
+    font-weight: 500;
+}
+
+.main-group {
+    margin-bottom: 1.3rem;
+    padding-right: 5rem;
+}
+
+.line-container {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.line {
+    width: 99%;
+    background-color: var(--orange);
+    height: 3px;
+    margin-bottom: 1.3rem;
+}
+main h6 {
+    font-weight: 700;
+    margin-top: 1rem;
+}
+.sub-main-group p{
+    margin: 0.5rem 0 0.5rem 1.2rem;
 }
